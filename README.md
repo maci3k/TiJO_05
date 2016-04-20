@@ -24,3 +24,9 @@ To start developing unit tests
 To run tests and static analysis
 
     npm test
+
+### Running grunt locally
+
+    ./node_modules/grunt-cli/bin/grunt karma:unit
+    ./node_modules/grunt-cli/bin/grunt karma:dev
+    ./node_modules/grunt-cli/bin/grunt jshint
